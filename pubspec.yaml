@@ -1,0 +1,49 @@
+name: amged_s_application4
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=3.4.4 <4.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  flutter_localizations: 
+    sdk: flutter
+  cached_network_image: ^3.3.1
+  flutter_svg: ^2.0.10+1
+  flutter_bloc: ^8.1.6
+  equatable: ^2.0.5
+  shared_preferences: ^2.3.0
+  connectivity_plus: ^6.0.4
+  carousel_slider_plus: ^7.0.0
+  smooth_page_indicator: ^1.2.0+3
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Work Sans
+      fonts: 
+        - asset: assets/fonts/WorkSansBold.ttf
+          weight: 700
+        - asset: assets/fonts/WorkSansRegular.ttf
+          weight: 400
+        - asset: assets/fonts/WorkSansMedium.ttf
+          weight: 500
+    - family: Plus Jakarta Sans
+      fonts: 
+        - asset: assets/fonts/PlusJakartaSansRegular.ttf
+          weight: 400
+    - family: Poppins
+      fonts: 
+        - asset: assets/fonts/PoppinsBold.ttf
+          weight: 700
+        - asset: assets/fonts/PoppinsMedium.ttf
+          weight: 500
+        - asset: assets/fonts/PoppinsRegular.ttf
+          weight: 400
+        - asset: assets/fonts/PoppinsSemiBold.ttf
+          weight: 600
