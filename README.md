@@ -1,5 +1,5 @@
 
-# amged_s_application4
+# Flutter Devoloper
 ### Table of contents
 - [System requirements](#system-requirements)
 - [Figma design guidelines for better UI accuracy](#figma-design-guideline-for-better-accuracy)
